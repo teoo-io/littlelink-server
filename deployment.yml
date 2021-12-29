@@ -55,7 +55,7 @@ spec:
           - name: CUSTOM_BUTTON_URL
             value: "https://rancher.teoo.io,https://nes.teoo.io,https://docs.teoo.io,mailto:m@teoo.io"
           - name: CUSTOM_BUTTON_COLOR
-            value: "#0075A8,#F15354,#F1C40F,#27AE5F" # #FE7C3F   #27AE5F  #99A3A8  #34495E
+            value: "#0075A8,#27AE5F,#F1C40F,#27AE5F" # #FE7C3F #FE7C3F #27AE5F  #99A3A8  #34495E
           - name: CUSTOM_BUTTON_TEXT_COLOR
             value: "#ffffff,#ffffff,#ffffff,#ffffff"
           - name: CUSTOM_BUTTON_ALT_TEXT
