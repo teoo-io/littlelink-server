@@ -41,7 +41,7 @@ spec:
           - name: NAME
             value: "Mateo Ortegon"
           - name: BIO
-            value: "Hey! This is a list of links to workloads running on my HA K3s cluster (located in my laundry room in Boise, ID). Source for workloads + CI/CD scripts on GitHub below."
+            value: "Hey! This is a list of links to workloads running on my HA K3s cluster (located in my laundry room in Boise :D ). Source for workloads + CI/CD scripts on GitHub below."
           - name: FOOTER
             value: "Thanks for stopping by! : )"
           - name: GITHUB
