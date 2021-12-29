@@ -63,7 +63,7 @@ spec:
           - name: CUSTOM_BUTTON_NAME
             value: "RANCHER,NES,DOCS,EMAIL"
           - name: CUSTOM_BUTTON_ICON
-            value: "fas cubes,fas gamepad,fas books,fas envelope"
+            value: "fas cubes,fas gamepad,fas folder-open,fas envelope"
           ports:
             - name: APP_NAME-svc
               containerPort: 3000
