@@ -41,7 +41,7 @@ spec:
           - name: NAME
             value: "Mateo Ortegon"
           - name: BIO
-            value: "Hey! This is a list of links to workloads running on this HA K3s cluster as well as some Social media links. \n Source on GitHub below."
+            value: "Hey! This is a list of links to workloads running on this HA K3s cluster as well as some Social media links. Source on GitHub below."
           - name: FOOTER
             value: "Thanks for stopping by! : )"
           - name: GITHUB
@@ -63,7 +63,7 @@ spec:
           - name: CUSTOM_BUTTON_NAME
             value: "RANCHER,NES,DOCS,EMAIL"
           - name: CUSTOM_BUTTON_ICON
-            value: "fas cubes,fas-books"
+            value: "fas cubes,fas gamepad,fas books,fas envelope"
           ports:
             - name: APP_NAME-svc
               containerPort: 3000
