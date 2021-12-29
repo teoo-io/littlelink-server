@@ -57,9 +57,9 @@ spec:
           - name: CUSTOM_BUTTON_COLOR
             value: "#30BA78,#ED2756,#0085FF,#99A3A8"
           - name: CUSTOM_BUTTON_TEXT_COLOR
-            value: "#ffffff,#ffffff","#ffffff","#ffffff"
+            value: "#ffffff,#ffffff,#ffffff,#ffffff"
           - name: CUSTOM_BUTTON_ALT_TEXT
-            value: "Rancher Dashboard,PLay Nintendo,Documentation Archive,E-mail me!"
+            value: "Rancher Dashboard,PLay Nintendo,Documentation Archive"
           - name: CUSTOM_BUTTON_NAME
             value: "RANCHER,NES,DOCS,EMAIL"
           - name: CUSTOM_BUTTON_ICON
