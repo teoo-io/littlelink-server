@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: APP_NAME
-          image: ghcr.io/techno-tim/littlelink-server:latest
+          image: DOCKERHUB_USERNAME/APP_NAME:GIT_HASH
           env:
           - name: META_TITLE
             value: "Mateo Ortegon"
