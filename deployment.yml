@@ -52,10 +52,6 @@ spec:
             value: "m@teoo.io"
           - name: EMAIL_TEXT
             value: "E-mail me!"
-          - name: EMAIL_ALT
-            value: "This is my e-mail"
-          - name: EMAIL_ALT_TEXT
-            value: "E-mail"
           - name: BUTTON_ORDER
             value: "RANCHER,DOCS,GITHUB,LINKED_IN,EMAIL"
           - name: CUSTOM_BUTTON_TEXT
