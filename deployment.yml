@@ -41,7 +41,7 @@ spec:
           - name: NAME
             value: "Mateo Ortegon"
           - name: BIO
-            value: "Hey! This is a list of links to workloads running on this HA K3s cluster as well as some Social media links. Source on GitHub below."
+            value: "Hey! This is a list of links to workloads running on this HA K3s cluster (hosted from may laundry room in Boise, ID). Source for workloads + CI/CD scripts on GitHub below."
           - name: FOOTER
             value: "Thanks for stopping by! : )"
           - name: GITHUB
@@ -55,11 +55,11 @@ spec:
           - name: CUSTOM_BUTTON_URL
             value: "https://rancher.teoo.io,https://nes.teoo.io,https://docs.teoo.io,mailto:m@teoo.io"
           - name: CUSTOM_BUTTON_COLOR
-            value: "#0075A8,#F15354,#F1C40F,#27AE5F"
+            value: "#0075A8,#F15354,#F1C40F,#27AE5F" # #FE7C3F   #27AE5F  #99A3A8  #34495E
           - name: CUSTOM_BUTTON_TEXT_COLOR
             value: "#ffffff,#ffffff,#ffffff,#ffffff"
           - name: CUSTOM_BUTTON_ALT_TEXT
-            value: "Rancher Dashboard,PLay Nintendo,Documentation Archive"
+            value: "Rancher Dashboard,Play Nintendo,Documentation Archive,Email me!"
           - name: CUSTOM_BUTTON_NAME
             value: "RANCHER,NES,DOCS,EMAIL"
           - name: CUSTOM_BUTTON_ICON
