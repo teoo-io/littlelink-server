@@ -41,31 +41,27 @@ spec:
           - name: NAME
             value: "Mateo Ortegon"
           - name: BIO
-            value: "Hey! This is a list of links to workloads running on this cluster as well as some Social media links."
+            value: "Hey! This is a list of links to workloads running on this HA K3s cluster as well as some Social media links. \Source on GitHub below."
           - name: FOOTER
             value: "Thanks for stopping by! : )"
           - name: GITHUB
             value: "https://github.com/teoo-io"
           - name: LINKED_IN
             value: "https://www.linkedin.com/in/mateoortegon"
-          - name: EMAIL
-            value: "m@teoo.io"
-          - name: EMAIL_TEXT
-            value: "E-mail me!"
           - name: BUTTON_ORDER
-            value: "RANCHER,DOCS,GITHUB,LINKED_IN,EMAIL"
+            value: "RANCHER,NES,DOCS,GITHUB,LINKED_IN,EMAIL"
           - name: CUSTOM_BUTTON_TEXT
-            value: "Rancher K3s,Docs + Guides"
+            value: "Rancher K3s,NES Emulator,Docs + Guides, E-mail"
           - name: CUSTOM_BUTTON_URL
-            value: "https://rancher.teoo.io,https://docs.teoo.io"
+            value: "https://rancher.teoo.io,https://nes.teoo.io,https://docs.teoo.io,mailto:m@teoo.io"
           - name: CUSTOM_BUTTON_COLOR
-            value: "#ED2756,#0085FF"
+            value: "#30BA78,#ED2756,#0085FF,#99A3A8"
           - name: CUSTOM_BUTTON_TEXT_COLOR
-            value: "#ffffff,#ffffff"
+            value: "#ffffff,#ffffff","#ffffff","#ffffff"
           - name: CUSTOM_BUTTON_ALT_TEXT
-            value: "Rancher Dashboard,Documentation Archive"
+            value: "Rancher Dashboard,PLay Nintendo,Documentation Archive,E-mail me!"
           - name: CUSTOM_BUTTON_NAME
-            value: "RANCHER,DOCS"
+            value: "RANCHER,NES,DOCS,EMAIL"
           - name: CUSTOM_BUTTON_ICON
             value: "fas cubes,fas-books"
           ports:
