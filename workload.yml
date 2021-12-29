@@ -1,0 +1,77 @@
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: APP_NAME
+  namespace: APP_NAME-system
+  labels:
+    app: APP_NAME
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: APP_NAME
+  template:
+    metadata:
+      labels:
+        app: APP_NAME
+    spec:
+      containers:
+        - name: APP_NAME
+          image: ghcr.io/techno-tim/littlelink-server:latest
+          env:
+          - name: META_TITLE
+            value: "Mateo Ortegon"
+          - name: META_DESCRIPTION
+            value: "Teo's Cloud"
+          - name: META_AUTHOR
+            value: "Mateo Ortegon"
+          - name: LANG
+            value: "en"
+          - name: THEME
+            value: "Dark"
+          - name: FAVICON_URL
+            value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
+          - name: AVATAR_URL
+            value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
+          - name: AVATAR_2X_URL
+            value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
+          - name: AVATAR_ALT
+            value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
+          - name: NAME
+            value: "Mateo Ortegon"
+          - name: BIO
+            value: "Hey! This is a list of links to workloads running on this cluster as well as some Social media links."
+          - name: FOOTER
+            value: "Thanks for stopping by! : )"
+          - name: GITHUB
+            value: "https://github.com/teoo-io"
+          - name: LINKED_IN
+            value: "https://www.linkedin.com/in/mateoortegon"
+          - name: EMAIL
+            value: "m@teoo.io"
+          - name: EMAIL_TEXT
+            value: "E-mail me!"
+          - name: EMAIL_ALT
+            value: "This is my e-mail"
+          - name: EMAIL_ALT_TEXT
+            value: "E-mail"
+          - name: BUTTON_ORDER
+            value: "RANCHER,DOCS,GITHUB,LINKED_IN,EMAIL"
+          - name: CUSTOM_BUTTON_TEXT
+            value: "Rancher K3s,Docs + Guides"
+          - name: CUSTOM_BUTTON_URL
+            value: "https://rancher.teoo.io,https://docs.teoo.io"
+          - name: CUSTOM_BUTTON_COLOR
+            value: "#ED2756,#0085FF"
+          - name: CUSTOM_BUTTON_TEXT_COLOR
+            value: "#ffffff,#ffffff"
+          - name: CUSTOM_BUTTON_ALT_TEXT
+            value: "Rancher Dashboard,Documentation Archive"
+          - name: CUSTOM_BUTTON_NAME
+            value: "RANCHER,DOCS"
+          - name: CUSTOM_BUTTON_ICON
+            value: "fas cubes,fa-solid fa-books"
+          ports:
+            - name: APP_NAME-svc
+              containerPort: 3000
