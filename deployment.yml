@@ -31,7 +31,7 @@ spec:
           - name: THEME
             value: "Dark"
           - name: FAVICON_URL
-            value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
+            value: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sitemap_font_awesome.svg/1200px-Sitemap_font_awesome.svg.png"
           - name: AVATAR_URL
             value: "https://miro.medium.com/fit/c/1360/1360/0*p7du7PBJUO4wnQBQ."
           - name: AVATAR_2X_URL
