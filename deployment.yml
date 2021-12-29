@@ -21,7 +21,7 @@ spec:
           image: DOCKERHUB_USERNAME/APP_NAME:GIT_HASH
           env:
           - name: META_TITLE
-            value: "Mateo Ortegon"
+            value: "Teo's Cloud"
           - name: META_DESCRIPTION
             value: "Teo's Cloud"
           - name: META_AUTHOR
