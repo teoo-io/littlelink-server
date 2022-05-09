@@ -51,19 +51,19 @@ spec:
           - name: BUTTON_ORDER
             value: "RANCHER,NES,DOCS,CRYPTO,GITHUB,HYPERVISOR,LINKED_IN,EMAIL"
           - name: CUSTOM_BUTTON_TEXT
-            value: "Rancher K3s,NES Emulator,Docs + Guides,Crypto Projects (Under Dev.), E-mail,Hypervisor"
+            value: "Rancher K3s,NES Emulator,Sr. Design Project,Crypto Projects (Under Dev.), E-mail,Hypervisor"
           - name: CUSTOM_BUTTON_URL
-            value: "https://rancher.teoo.io,https://nes.teoo.io,https://docs.teoo.io,https://crypto.teoo.io,mailto:m@teoo.io,https://cloud.teoo.io:8006/"
+            value: "https://rancher.teoo.io,https://nes.teoo.io,https://cs481-ekh.github.io/s22-ewco/,https://crypto.teoo.io,mailto:m@teoo.io,https://cloud.teoo.io:8006/"
           - name: CUSTOM_BUTTON_COLOR
             value: "#0075A8,#F15354,#F1C40F,#99A3A8,#27AE5F,#e57000" # #FE7C3F #FE7C3F #27AE5F  #99A3A8  #34495E
           - name: CUSTOM_BUTTON_TEXT_COLOR
             value: "#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff"
           - name: CUSTOM_BUTTON_ALT_TEXT
-            value: "Rancher Dashboard,Play Nintendo,Documentation Archive,Not yet deployed,Email me!,Hypervisor"
+            value: "Rancher Dashboard,Play Nintendo,Documentation for HMI,Not yet deployed,Email me!,Hypervisor"
           - name: CUSTOM_BUTTON_NAME
             value: "RANCHER,NES,DOCS,CRYPTO,EMAIL,HYPERVISOR"
           - name: CUSTOM_BUTTON_ICON
-            value: "fas cubes,fas gamepad,fas folder-open,fas coins,fas envelope,fas rocket"
+            value: "fas cubes,fas gamepad,fas graduation-cap,fas coins,fas envelope,fas rocket"
           ports:
             - name: APP_NAME-svc
               containerPort: 3000
